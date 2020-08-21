@@ -21,7 +21,7 @@ jobs:
       with:
         username: ${{ secrets.DOCKER_HUB_USERNAME }}
         password: ${{ secrets.DOCKER_HUB_PASSWORD }}
-        repository: charlesgoh/nodejs-api-example
+        repository: charlesgoh/github-actions-examples
         tags: latest
     
     - name: Notify Telegram
