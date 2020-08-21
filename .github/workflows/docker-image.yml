@@ -30,7 +30,7 @@ jobs:
       uses: yanzay/notify-telegram@v0.1.0
       with:
         # Chat to send: chat id or @channel_name
-        chat: @GithubActionsExampleBot
+        chat: GithubActionsExampleBot
         # Telegram Bot token
         token: ${{ secrets.TELEGRAM_API_TOKEN }}
         # Job status
